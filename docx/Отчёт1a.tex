@@ -6,33 +6,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[unicode]{hyperref}
 \usepackage{a4wide}
+\usepackage{pdfpages}
 
 \begin{document}
-\thispagestyle{empty}
-\begin{center}
-	\ \vspace{-4cm}\\
-	\includegraphics[width=0.5\textwidth]{../img/msu.png}\\
-	{\scshape Московский государственный университет имени М.~В.~Ломоносова}\\
-	Факультет вычислительной  математики и кибернетики\\
-	\vfill
-	{\LARGE Задание по системам управления проектами}\\
-	\vspace{1cm}
-	{\Huge\bfseries <<Работа в MS Project>>}\\
-	{\Huge Вариант 5} 
-\end{center}
-\vspace{1cm}
-\begin{flushright}
-	\large
-	\textit{Задание выполнил}\\
-	Гусейнов Али Эльшанович\\
-	\vspace{5mm}
-	\textit{Преподаватель}\\
-	Абрамов Владимир Геннадьевич
-\end{flushright}
-\vfill
-\begin{center}
-	Москва, 2024
-\end{center}
+\includepdf[pages=-]{title_Ali.pdf}
 \clearpage
 \tableofcontents
 \clearpage
@@ -106,6 +83,12 @@
 \section{Решение}
 	Постараемся найти 3 решения для нашей задачи с учётом проведённого мной анализа.
 	\subsection{Первый вариант}
+		\LARGE Что поменяли:\\
+		\includegraphics[height=0.6\textheight]{../img/1a1_days_change.png}\\ 
+		Как это выглядит:\\
+		\includegraphics[width=\textwidth]{../img/ot1a1_1.png}\\ 
+		Сколько оно тратит:\\
+		\includepdf[pages=-]{MSOP_Project_ans_1a1.pdf}
 	\subsection{Второй вариант}
 	\subsection{Третий вариант}
 \end{document}
